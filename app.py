@@ -1,7 +1,7 @@
 from dash import Dash, dcc, Input, Output, callback, html
 from utilities_and_text import external_link, external_stylesheets, \
     presidential_election_p1, presidential_election_p2, voter_reg_p, legislature_p, make_break
-from data import main_data, senate_df, house_df, voter_reg_focus
+from data_loader import main_data, senate_df, house_df, voter_reg_focus
 from create_visuals import create_map, create_figure, create_plot
 
 
