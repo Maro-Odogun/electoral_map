@@ -130,4 +130,4 @@ def update_chart(input_year):
 
 
 if __name__ == '__main__':
-    app.run(port=0, debug=True)
+    app.run(port=1, debug=True)
