@@ -6,6 +6,7 @@ from create_visuals import create_map, create_figure, create_plot
 
 
 app = Dash(external_stylesheets=external_stylesheets)
+server = app.server
 
 app.layout = html.Div([
     html.Div([html.Img(src="https://media.istockphoto.com/id/495144439/photo/nigerian-flag-map.jpg?s=612x612&w=0&k=20&c=9NENjlSRzNLw_xUGFydkAe36VkwD8d9e8JvZIipv7Y8=", 
