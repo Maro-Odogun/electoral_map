@@ -14,11 +14,11 @@ color_map_election={
 
 # Colour Map for Legislative Composition Entities
 color_map_legislative = {
-    'Peoples\' Democratic Party': 'rgba(44, 160, 44, 0.8)',    # Green (kept as requested)
-    'All Progressives Congress': 'rgba(96, 129, 238, 0.8)',    # Blue (kept as requested)
-    'All Nigeria Peoples Party': 'rgba(255, 127, 14, 0.7)',   # Orange - complements green/blue
-    'Action Congress': 'rgba(148, 103, 189, 0.7)',            # Purple - creates nice contrast
-    'Other Parties': 'rgba(140, 86, 75, 0.7)'                 # Brown - neutral, distinguishable
+    'Peoples\' Democratic Party': 'rgba(44, 160, 44, 0.8)',    # Green 
+    'All Progressives Congress': 'rgba(96, 129, 238, 0.8)',    # Blue 
+    'All Nigeria Peoples Party': 'rgba(255, 127, 14, 0.7)',   # Orange 
+    'Action Congress': 'rgba(148, 103, 189, 0.7)',            # Purple 
+    'Other Parties': 'rgba(140, 86, 75, 0.7)'                 # Brown 
 }
 
 # Find the centroids of the states and use that to plot a scatterplot with text representing state names
@@ -159,9 +159,9 @@ def create_plot(input_year):
         },
 
         color_discrete_map={
-            '% registered voters who voted': '#2E86AB',        # Blue - Turnout
-            '% eligible pop. who registered to vote': '#A23B72', # Purple - Registration  
-            '% eligible pop. who voted': '#F18F01'              # Orange - Overall participation
+            '% registered voters who voted': '#2E86AB',        # Blue 
+            '% eligible pop. who registered to vote': '#A23B72', # Purple  
+            '% eligible pop. who voted': '#F18F01'              # Orange 
         },
     )
 
@@ -201,7 +201,7 @@ def create_plot(input_year):
             gridcolor='#E5E5E5',
             linecolor='#CCCCCC',
             tickfont=dict(size=11),
-            range=[0, 100]  # Set y-axis from 0 to 100%
+            range=[0, 100]  
         ),
         hovermode='x unified'
     )
