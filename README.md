@@ -3,3 +3,5 @@ pie charts showing the distribution of senate and house seats amongst political 
 and voter participation trends from 2011 through 2023. This was built using Plotly and Dash.
 
 This was largely inspired by a similar project carried out by the intelligence company Stears. The challenge was to find a way to recreate their work using python tools.
+
+The dashboard can be viewed here: https://nigeria-electoral-map-project.onrender.com/
